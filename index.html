@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rush | Torrent Streamming Platform :)</title>
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel="stylesheet" href="./css/index2.css">
+    <script src="./lib/webtorrent.js"></script>
+    <link rel="stylesheet" href="./css/overflow.css">
+    <!-- <script src="./lib/webtor.js"></script> -->
+    <!-- <script src="./lib/handlebars.js"></script> -->
+    <script src="./lib/build/mediaelement-and-player.min.js"></script>
+    <link rel="stylesheet" href="./lib/build/mediaelementplayer.min.css">
+    <!-- <script src="./lib/pt.js"></script> -->
+
+</head>
+
+<body class="body" style="overflow: hidden;" style="margin-top: 2%;">
+    <div id="container" class="scrollbar">
+        <div class="container " style="height: 100vh;">
+            <!-- <img src="./img/icon.png" class="logo" alt="" srcset=""> -->
+
+            <ul class="dashboardItems">
+                <!-- <video  style="float: left;margin: 10px;" id="video"></video> -->
+                <!-- <li  class="items" >
+                </li>  -->
+                <div id="v"></div>
+                <li class="items " style="width: 400px;float: left;">
+
+                    <h3 style="margin: auto;">
+                        <img src="./img/icon.png" class="logo" alt="" srcset=""> Rush | Torrent Streamming Platform
+                    </h3>
+                    <p>Rush is for streaming torrents. Whether it's 🎬️ from the Internet Archive, 🎼🎧️ from Creative Commons, or audiobooks from Librivox, ➡️👤 🥫 ▶️ it ➡️ away. ➡️👤 ❌️ have to ⏳️ for it to finish downloading.</p>
+                    <small style="color: darkgray;">At the moment ➡️👤 🥫 only ▶️ mp4️⃣ or mp3️⃣ format 📁 More over Only those torrent will be streamed that are 🕸️ compatible !</small>
+                    <br><small>☔️ some 📁 or past some 🧲 🔗 ➕ enjoy 😀 !</small>
+                </li>
+                <li class="items " style="float: left;">
+                    <label>
+                        <div class="filerAdder">
+                            <svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><title>ionicons-v5-a</title><path d='M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm80,224H272v64a16,16,0,0,1-32,0V272H176a16,16,0,0,1,0-32h64V176a16,16,0,0,1,32,0v64h64a16,16,0,0,1,0,32Z'/></svg>                    Add Files Here !
+                        </div>
+                        <input type="file" id="myfile" multiple>
+                    </label>
+                </li>
+                <li class="items " style="max-width: 102px;padding: 0;padding-bottom: 10px;float: left;">
+                    <textarea class="magnet" id="textMagnet" placeholder="Past Yor Magnet Link Here !" rows="2" cols="20"></textarea><br>
+                    <button class="btn-primary" id="saveMagnet" style="margin-top: 12px;"> Add Here </button>
+                </li>
+
+            </ul>
+            <ul class="dashboardItems cols" id="content"></ul>
+        </div>
+        <div id="con_instaFollow" class=""></div>
+    </div>
+</body>
+
+<script src="./lib/instaFollow.js"></script>
+<script src="./lib/pouchdb.js"></script>
+<script src="./lib/moment.js"></script>
+<script src="./lib/d&d.js"></script>
+<script src="./lib/anime.js"></script>
+<!-- <script src="./lib/handleUtils.js"></script> -->
+<script src="./ui.js"></script>
+<script src="./lib/torrentFiles.js"></script>
+<script src="./app2.js"></script>
+
+</html>
